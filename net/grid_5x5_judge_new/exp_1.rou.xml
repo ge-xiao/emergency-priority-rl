@@ -1,0 +1,129 @@
+<routes>
+  <vType id="type1" length="5" maxSpeed="11" accel="5" minGap="2.5" decel="10"/>
+  <vType id="emergency1" length="5" accel="5" maxSpeed="20" minGap="2.5"  vClass="emergency" guiShape="emergency"/>
+  <vType id="emergency2" length="5" accel="5" maxSpeed="20" minGap="2.5"  vClass="emergency" guiShape="firebrigade"/>
+  <vType id="emergency3" length="5" accel="5" maxSpeed="20" minGap="2.5"  vClass="emergency" guiShape="police"/>
+  <flow id="emergency1" departPos="base" departLane="best" from="p_0_5-t_1_5" to="t_5_1-p_6_1" begin="0" end="1" vehsPerHour="15" type="emergency1"/>
+  <flow id="f_0_0" departPos="base" departLane="best" from="p_0_1-t_1_1" to="t_5_5-p_6_5" begin="0" end="400" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_0_1" departPos="base" departLane="best" from="p_6_1-t_5_1" to="t_1_5-p_0_5" begin="0" end="400" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_0_2" departPos="base" departLane="best" from="p_1_0-t_1_1" to="t_5_5-p_5_6" begin="0" end="400" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_0_3" departPos="base" departLane="best" from="p_1_6-t_1_5" to="t_5_1-p_5_0" begin="0" end="400" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_0_4" departPos="base" departLane="best" from="p_0_2-t_1_2" to="t_5_4-p_6_4" begin="0" end="400" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_0_5" departPos="base" departLane="best" from="p_6_2-t_5_2" to="t_1_4-p_0_4" begin="0" end="400" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_0_6" departPos="base" departLane="best" from="p_2_0-t_2_1" to="t_4_5-p_4_6" begin="0" end="400" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_0_7" departPos="base" departLane="best" from="p_2_6-t_2_5" to="t_4_1-p_4_0" begin="0" end="400" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_0_8" departPos="base" departLane="best" from="p_0_3-t_1_3" to="t_5_3-p_6_3" begin="0" end="400" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_0_9" departPos="base" departLane="best" from="p_6_3-t_5_3" to="t_1_3-p_0_3" begin="0" end="400" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_0_10" departPos="base" departLane="best" from="p_3_0-t_3_1" to="t_3_5-p_3_6" begin="0" end="400" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_0_11" departPos="base" departLane="best" from="p_3_6-t_3_5" to="t_3_1-p_3_0" begin="0" end="400" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_0_12" departPos="base" departLane="best" from="p_0_4-t_1_4" to="t_5_2-p_6_2" begin="0" end="400" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_0_13" departPos="base" departLane="best" from="p_6_4-t_5_4" to="t_1_2-p_0_2" begin="0" end="400" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_0_14" departPos="base" departLane="best" from="p_4_0-t_4_1" to="t_2_5-p_2_6" begin="0" end="400" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_0_15" departPos="base" departLane="best" from="p_4_6-t_4_5" to="t_2_1-p_2_0" begin="0" end="400" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_0_16" departPos="base" departLane="best" from="p_0_5-t_1_5" to="t_5_1-p_6_1" begin="0" end="400" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_0_17" departPos="base" departLane="best" from="p_6_5-t_5_5" to="t_1_1-p_0_1" begin="0" end="400" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_0_18" departPos="base" departLane="best" from="p_5_0-t_5_1" to="t_1_5-p_1_6" begin="0" end="400" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_0_19" departPos="base" departLane="best" from="p_5_6-t_5_5" to="t_1_1-p_1_0" begin="0" end="400" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_1_0" departPos="base" departLane="best" from="p_0_1-t_1_1" to="t_5_5-p_6_5" begin="400" end="800" vehsPerHour="235" type="type1">
+  </flow>
+  <flow id="f_1_1" departPos="base" departLane="best" from="p_6_1-t_5_1" to="t_1_5-p_0_5" begin="400" end="800" vehsPerHour="235" type="type1">
+  </flow>
+  <flow id="f_1_2" departPos="base" departLane="best" from="p_1_0-t_1_1" to="t_5_5-p_5_6" begin="400" end="800" vehsPerHour="235" type="type1">
+  </flow>
+  <flow id="f_1_3" departPos="base" departLane="best" from="p_1_6-t_1_5" to="t_5_1-p_5_0" begin="400" end="800" vehsPerHour="235" type="type1">
+  </flow>
+  <flow id="f_1_4" departPos="base" departLane="best" from="p_0_2-t_1_2" to="t_5_4-p_6_4" begin="400" end="800" vehsPerHour="235" type="type1">
+  </flow>
+  <flow id="f_1_5" departPos="base" departLane="best" from="p_6_2-t_5_2" to="t_1_4-p_0_4" begin="400" end="800" vehsPerHour="235" type="type1">
+  </flow>
+  <flow id="f_1_6" departPos="base" departLane="best" from="p_2_0-t_2_1" to="t_4_5-p_4_6" begin="400" end="800" vehsPerHour="235" type="type1">
+  </flow>
+  <flow id="f_1_7" departPos="base" departLane="best" from="p_2_6-t_2_5" to="t_4_1-p_4_0" begin="400" end="800" vehsPerHour="235" type="type1">
+  </flow>
+  <flow id="f_1_8" departPos="base" departLane="best" from="p_0_3-t_1_3" to="t_5_3-p_6_3" begin="400" end="800" vehsPerHour="235" type="type1">
+  </flow>
+  <flow id="f_1_9" departPos="base" departLane="best" from="p_6_3-t_5_3" to="t_1_3-p_0_3" begin="400" end="800" vehsPerHour="235" type="type1">
+  </flow>
+  <flow id="f_1_10" departPos="base" departLane="best" from="p_3_0-t_3_1" to="t_3_5-p_3_6" begin="400" end="800" vehsPerHour="235" type="type1">
+  </flow>
+  <flow id="f_1_11" departPos="base" departLane="best" from="p_3_6-t_3_5" to="t_3_1-p_3_0" begin="400" end="800" vehsPerHour="235" type="type1">
+  </flow>
+  <flow id="f_1_12" departPos="base" departLane="best" from="p_0_4-t_1_4" to="t_5_2-p_6_2" begin="400" end="800" vehsPerHour="235" type="type1">
+  </flow>
+  <flow id="f_1_13" departPos="base" departLane="best" from="p_6_4-t_5_4" to="t_1_2-p_0_2" begin="400" end="800" vehsPerHour="235" type="type1">
+  </flow>
+  <flow id="f_1_14" departPos="base" departLane="best" from="p_4_0-t_4_1" to="t_2_5-p_2_6" begin="400" end="800" vehsPerHour="235" type="type1">
+  </flow>
+  <flow id="f_1_15" departPos="base" departLane="best" from="p_4_6-t_4_5" to="t_2_1-p_2_0" begin="400" end="800" vehsPerHour="235" type="type1">
+  </flow>
+  <flow id="f_1_16" departPos="base" departLane="best" from="p_0_5-t_1_5" to="t_5_1-p_6_1" begin="400" end="800" vehsPerHour="235" type="type1">
+  </flow>
+  <flow id="f_1_17" departPos="base" departLane="best" from="p_6_5-t_5_5" to="t_1_1-p_0_1" begin="400" end="800" vehsPerHour="235" type="type1">
+  </flow>
+  <flow id="f_1_18" departPos="base" departLane="best" from="p_5_0-t_5_1" to="t_1_5-p_1_6" begin="400" end="800" vehsPerHour="235" type="type1">
+  </flow>
+  <flow id="f_1_19" departPos="base" departLane="best" from="p_5_6-t_5_5" to="t_1_1-p_1_0" begin="400" end="800" vehsPerHour="235" type="type1">
+  </flow>
+  <flow id="emergency2" departPos="base" departLane="best" from="p_3_0-t_3_1" to="t_3_5-p_3_6" begin="500" end="501" vehsPerHour="15" type="emergency2"/>
+  <flow id="f_2_0" departPos="base" departLane="best" from="p_0_1-t_1_1" to="t_5_5-p_6_5" begin="800" end="1200" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_2_1" departPos="base" departLane="best" from="p_6_1-t_5_1" to="t_1_5-p_0_5" begin="800" end="1200" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_2_2" departPos="base" departLane="best" from="p_1_0-t_1_1" to="t_5_5-p_5_6" begin="800" end="1200" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_2_3" departPos="base" departLane="best" from="p_1_6-t_1_5" to="t_5_1-p_5_0" begin="800" end="1200" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_2_4" departPos="base" departLane="best" from="p_0_2-t_1_2" to="t_5_4-p_6_4" begin="800" end="1200" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_2_5" departPos="base" departLane="best" from="p_6_2-t_5_2" to="t_1_4-p_0_4" begin="800" end="1200" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_2_6" departPos="base" departLane="best" from="p_2_0-t_2_1" to="t_4_5-p_4_6" begin="800" end="1200" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_2_7" departPos="base" departLane="best" from="p_2_6-t_2_5" to="t_4_1-p_4_0" begin="800" end="1200" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_2_8" departPos="base" departLane="best" from="p_0_3-t_1_3" to="t_5_3-p_6_3" begin="800" end="1200" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_2_9" departPos="base" departLane="best" from="p_6_3-t_5_3" to="t_1_3-p_0_3" begin="800" end="1200" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_2_10" departPos="base" departLane="best" from="p_3_0-t_3_1" to="t_3_5-p_3_6" begin="800" end="1200" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_2_11" departPos="base" departLane="best" from="p_3_6-t_3_5" to="t_3_1-p_3_0" begin="800" end="1200" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_2_12" departPos="base" departLane="best" from="p_0_4-t_1_4" to="t_5_2-p_6_2" begin="800" end="1200" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_2_13" departPos="base" departLane="best" from="p_6_4-t_5_4" to="t_1_2-p_0_2" begin="800" end="1200" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_2_14" departPos="base" departLane="best" from="p_4_0-t_4_1" to="t_2_5-p_2_6" begin="800" end="1200" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_2_15" departPos="base" departLane="best" from="p_4_6-t_4_5" to="t_2_1-p_2_0" begin="800" end="1200" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_2_16" departPos="base" departLane="best" from="p_0_5-t_1_5" to="t_5_1-p_6_1" begin="800" end="1200" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_2_17" departPos="base" departLane="best" from="p_6_5-t_5_5" to="t_1_1-p_0_1" begin="800" end="1200" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_2_18" departPos="base" departLane="best" from="p_5_0-t_5_1" to="t_1_5-p_1_6" begin="800" end="1200" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="f_2_19" departPos="base" departLane="best" from="p_5_6-t_5_5" to="t_1_1-p_1_0" begin="800" end="1200" vehsPerHour="188" type="type1">
+  </flow>
+  <flow id="emergency3" departPos="base" departLane="best" from="p_6_3-t_5_3" to="t_1_1-p_0_1" begin="1000" end="1001" vehsPerHour="15" type="emergency3"/>
+</routes>

@@ -1,0 +1,13 @@
+<routes>
+    <vType id="normal" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="16.67" guiShape="passenger"/>
+        <route id="route_ns" edges="np12_nt1 nt1_nt2 nt2_nt3 nt3_np4"/>
+
+    <vehicle id="route_ne_1" type="normal" route="route_ns" depart="0" departSpeed="random" departPos="base" departLane="best"/>
+    <vehicle id="route_ne_2" type="normal" route="route_ns" depart="0" departSpeed="random" departPos="base" departLane="best"/>
+    <vehicle id="route_ne_3" type="normal" route="route_ns" depart="0" departSpeed="random" departPos="base" departLane="best"/>
+    <vehicle id="route_ne_4" type="normal" route="route_ns" depart="0" departSpeed="random" departPos="base" departLane="best"/>
+    <vehicle id="route_ne_0" type="normal" route="route_ns" depart="0" departSpeed="random" departPos="base" departLane="best"/>
+
+</routes>
+
+

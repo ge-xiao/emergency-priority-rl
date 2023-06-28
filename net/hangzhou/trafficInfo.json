@@ -1,0 +1,491 @@
+{
+  "sorted_nodes": [
+    "t_0",
+    "t_1",
+    "t_2",
+    "t_3",
+    "t_4",
+    "t_5",
+    "t_6",
+    "t_7",
+    "t_8",
+    "t_9",
+    "t_10",
+    "t_11",
+    "t_12",
+    "t_13",
+    "t_14",
+    "t_15",
+    "t_16",
+    "t_17",
+    "t_18",
+    "t_19",
+    "t_20",
+    "t_21",
+    "t_22"
+  ],
+  "tot_neighbor_map": {
+    "t_0": [
+      "t_1",
+      "t_5",
+      "p_0",
+      "p_15"
+    ],
+    "t_1": [
+      "t_0",
+      "t_2",
+      "t_6",
+      "p_1"
+    ],
+    "t_2": [
+      "t_1",
+      "t_3",
+      "t_7",
+      "p_2"
+    ],
+    "t_3": [
+      "t_2",
+      "t_4",
+      "t_8",
+      "p_3"
+    ],
+    "t_4": [
+      "t_3",
+      "t_9",
+      "p_4",
+      "p_5"
+    ],
+    "t_5": [
+      "t_0",
+      "t_6",
+      "t_10",
+      "p_14"
+    ],
+    "t_6": [
+      "t_1",
+      "t_5",
+      "t_7",
+      "t_11"
+    ],
+    "t_7": [
+      "t_2",
+      "t_6",
+      "t_8",
+      "t_12"
+    ],
+    "t_8": [
+      "t_3",
+      "t_7",
+      "t_9",
+      "t_13"
+    ],
+    "t_9": [
+      "t_4",
+      "t_8",
+      "t_14",
+      "p_6"
+    ],
+    "t_10": [
+      "t_5",
+      "t_11",
+      "t_18",
+      "p_13"
+    ],
+    "t_11": [
+      "t_6",
+      "t_10",
+      "t_12",
+      "t_19"
+    ],
+    "t_12": [
+      "t_7",
+      "t_11",
+      "t_13",
+      "t_15"
+    ],
+    "t_13": [
+      "t_8",
+      "t_12",
+      "t_14",
+      "t_16"
+    ],
+    "t_14": [
+      "t_9",
+      "t_13",
+      "t_17",
+      "p_7"
+    ],
+    "t_15": [
+      "t_12",
+      "t_16",
+      "t_20"
+    ],
+    "t_16": [
+      "t_13",
+      "t_15",
+      "t_17",
+      "t_21"
+    ],
+    "t_17": [
+      "t_14",
+      "t_16",
+      "t_22",
+      "p_8"
+    ],
+    "t_18": [
+      "p_12"
+    ],
+    "t_19": [
+      "t_11",
+      "t_18"
+    ],
+    "t_20": [
+      "t_15",
+      "t_19",
+      "p_11"
+    ],
+    "t_21": [
+      "t_16",
+      "t_20"
+    ],
+    "t_22": [
+      "t_17",
+      "t_21",
+      "p_9",
+      "p_10"
+    ]
+  },
+  "neighbor_map": {
+    "t_0": [
+      "t_1",
+      "t_5"
+    ],
+    "t_1": [
+      "t_0",
+      "t_2",
+      "t_6"
+    ],
+    "t_2": [
+      "t_1",
+      "t_3",
+      "t_7"
+    ],
+    "t_3": [
+      "t_2",
+      "t_4",
+      "t_8"
+    ],
+    "t_4": [
+      "t_3",
+      "t_9"
+    ],
+    "t_5": [
+      "t_0",
+      "t_6",
+      "t_10"
+    ],
+    "t_6": [
+      "t_1",
+      "t_5",
+      "t_7",
+      "t_11"
+    ],
+    "t_7": [
+      "t_2",
+      "t_6",
+      "t_8",
+      "t_12"
+    ],
+    "t_8": [
+      "t_3",
+      "t_7",
+      "t_9",
+      "t_13"
+    ],
+    "t_9": [
+      "t_4",
+      "t_8",
+      "t_14"
+    ],
+    "t_10": [
+      "t_5",
+      "t_11",
+      "t_18"
+    ],
+    "t_11": [
+      "t_6",
+      "t_10",
+      "t_12",
+      "t_19"
+    ],
+    "t_12": [
+      "t_7",
+      "t_11",
+      "t_13",
+      "t_15"
+    ],
+    "t_13": [
+      "t_8",
+      "t_12",
+      "t_14",
+      "t_16"
+    ],
+    "t_14": [
+      "t_9",
+      "t_13",
+      "t_17"
+    ],
+    "t_15": [
+      "t_12",
+      "t_16",
+      "t_20"
+    ],
+    "t_16": [
+      "t_13",
+      "t_15",
+      "t_17",
+      "t_21"
+    ],
+    "t_17": [
+      "t_14",
+      "t_16",
+      "t_22"
+    ],
+    "t_18": [],
+    "t_19": [
+      "t_11",
+      "t_18"
+    ],
+    "t_20": [
+      "t_15",
+      "t_19"
+    ],
+    "t_21": [
+      "t_16",
+      "t_20"
+    ],
+    "t_22": [
+      "t_17",
+      "t_21"
+    ]
+  },
+  "node_phases": {
+    "t_0": [
+      "GGGrrrrrGGGrrrrr",
+      "rrrGrrrrrrrGrrrr",
+      "rrrrGGGrrrrrGGGr",
+      "rrrrrrrGrrrrrrrG",
+      "GGGGrrrrrrrrrrrr",
+      "rrrrGGGGrrrrrrrr",
+      "rrrrrrrrGGGGrrrr",
+      "rrrrrrrrrrrrGGGG"
+    ],
+    "t_1": [
+      "GGGrrrrrGGGrrrrr",
+      "rrrGrrrrrrrGrrrr",
+      "rrrrGGGrrrrrGGGr",
+      "rrrrrrrGrrrrrrrG",
+      "GGGGrrrrrrrrrrrr",
+      "rrrrGGGGrrrrrrrr",
+      "rrrrrrrrGGGGrrrr",
+      "rrrrrrrrrrrrGGGG"
+    ],
+    "t_2": [
+      "GGGrrrrrGGGrrrrr",
+      "rrrGrrrrrrrGrrrr",
+      "rrrrGGGrrrrrGGGr",
+      "rrrrrrrGrrrrrrrG",
+      "GGGGrrrrrrrrrrrr",
+      "rrrrGGGGrrrrrrrr",
+      "rrrrrrrrGGGGrrrr",
+      "rrrrrrrrrrrrGGGG"
+    ],
+    "t_3": [
+      "GGGrrrrrGGGrrrrr",
+      "rrrGrrrrrrrGrrrr",
+      "rrrrGGGrrrrrGGGr",
+      "rrrrrrrGrrrrrrrG",
+      "GGGGrrrrrrrrrrrr",
+      "rrrrGGGGrrrrrrrr",
+      "rrrrrrrrGGGGrrrr",
+      "rrrrrrrrrrrrGGGG"
+    ],
+    "t_4": [
+      "GGGrrrrrGGGrrrrr",
+      "rrrGrrrrrrrGrrrr",
+      "rrrrGGGrrrrrGGGr",
+      "rrrrrrrGrrrrrrrG",
+      "GGGGrrrrrrrrrrrr",
+      "rrrrGGGGrrrrrrrr",
+      "rrrrrrrrGGGGrrrr",
+      "rrrrrrrrrrrrGGGG"
+    ],
+    "t_5": [
+      "GGGrrrrrGGGrrrrr",
+      "rrrGrrrrrrrGrrrr",
+      "rrrrGGGrrrrrGGGr",
+      "rrrrrrrGrrrrrrrG",
+      "GGGGrrrrrrrrrrrr",
+      "rrrrGGGGrrrrrrrr",
+      "rrrrrrrrGGGGrrrr",
+      "rrrrrrrrrrrrGGGG"
+    ],
+    "t_6": [
+      "GGGrrrrrGGGrrrrr",
+      "rrrGrrrrrrrGrrrr",
+      "rrrrGGGrrrrrGGGr",
+      "rrrrrrrGrrrrrrrG",
+      "GGGGrrrrrrrrrrrr",
+      "rrrrGGGGrrrrrrrr",
+      "rrrrrrrrGGGGrrrr",
+      "rrrrrrrrrrrrGGGG"
+    ],
+    "t_7": [
+      "GGGrrrrrGGGrrrrr",
+      "rrrGrrrrrrrGrrrr",
+      "rrrrGGGrrrrrGGGr",
+      "rrrrrrrGrrrrrrrG",
+      "GGGGrrrrrrrrrrrr",
+      "rrrrGGGGrrrrrrrr",
+      "rrrrrrrrGGGGrrrr",
+      "rrrrrrrrrrrrGGGG"
+    ],
+    "t_8": [
+      "GGGrrrrrGGGrrrrr",
+      "rrrGrrrrrrrGrrrr",
+      "rrrrGGGrrrrrGGGr",
+      "rrrrrrrGrrrrrrrG",
+      "GGGGrrrrrrrrrrrr",
+      "rrrrGGGGrrrrrrrr",
+      "rrrrrrrrGGGGrrrr",
+      "rrrrrrrrrrrrGGGG"
+    ],
+    "t_9": [
+      "GGGrrrrrGGGrrrrr",
+      "rrrGrrrrrrrGrrrr",
+      "rrrrGGGrrrrrGGGr",
+      "rrrrrrrGrrrrrrrG",
+      "GGGGrrrrrrrrrrrr",
+      "rrrrGGGGrrrrrrrr",
+      "rrrrrrrrGGGGrrrr",
+      "rrrrrrrrrrrrGGGG"
+    ],
+    "t_10": [
+      "GGGrrrrrGGGrrrrr",
+      "rrrGrrrrrrrGrrrr",
+      "rrrrGGGrrrrrGGGr",
+      "rrrrrrrGrrrrrrrG",
+      "GGGGrrrrrrrrrrrr",
+      "rrrrGGGGrrrrrrrr",
+      "rrrrrrrrGGGGrrrr",
+      "rrrrrrrrrrrrGGGG"
+    ],
+    "t_11": [
+      "GGGrrrrrGGGrrrrr",
+      "rrrGrrrrrrrGrrrr",
+      "rrrrGGGrrrrrGGGr",
+      "rrrrrrrGrrrrrrrG",
+      "GGGGrrrrrrrrrrrr",
+      "rrrrGGGGrrrrrrrr",
+      "rrrrrrrrGGGGrrrr",
+      "rrrrrrrrrrrrGGGG"
+    ],
+    "t_12": [
+      "GGGrrrrrGGGrrrrr",
+      "rrrGrrrrrrrGrrrr",
+      "rrrrGGGrrrrrGGGr",
+      "rrrrrrrGrrrrrrrG",
+      "GGGGrrrrrrrrrrrr",
+      "rrrrGGGGrrrrrrrr",
+      "rrrrrrrrGGGGrrrr",
+      "rrrrrrrrrrrrGGGG"
+    ],
+    "t_13": [
+      "GGGrrrrrGGGrrrrr",
+      "rrrGrrrrrrrGrrrr",
+      "rrrrGGGrrrrrGGGr",
+      "rrrrrrrGrrrrrrrG",
+      "GGGGrrrrrrrrrrrr",
+      "rrrrGGGGrrrrrrrr",
+      "rrrrrrrrGGGGrrrr",
+      "rrrrrrrrrrrrGGGG"
+    ],
+    "t_14": [
+      "GGGrrrrrGGGrrrrr",
+      "rrrGrrrrrrrGrrrr",
+      "rrrrGGGrrrrrGGGr",
+      "rrrrrrrGrrrrrrrG",
+      "GGGGrrrrrrrrrrrr",
+      "rrrrGGGGrrrrrrrr",
+      "rrrrrrrrGGGGrrrr",
+      "rrrrrrrrrrrrGGGG"
+    ],
+    "t_16": [
+      "GGGrrrrrGGGrrrrr",
+      "rrrGrrrrrrrGrrrr",
+      "rrrrGGGrrrrrGGGr",
+      "rrrrrrrGrrrrrrrG",
+      "GGGGrrrrrrrrrrrr",
+      "rrrrGGGGrrrrrrrr",
+      "rrrrrrrrGGGGrrrr",
+      "rrrrrrrrrrrrGGGG"
+    ],
+    "t_17": [
+      "GGGrrrrrGGGrrrrr",
+      "rrrGrrrrrrrGrrrr",
+      "rrrrGGGrrrrrGGGr",
+      "rrrrrrrGrrrrrrrG",
+      "GGGGrrrrrrrrrrrr",
+      "rrrrGGGGrrrrrrrr",
+      "rrrrrrrrGGGGrrrr",
+      "rrrrrrrrrrrrGGGG"
+    ],
+    "t_15": [
+      "rrrGGGGGGrr",
+      "rrrrrrrGGGG",
+      "GGGGrrrrrrr"
+    ],
+    "t_18": [
+      "GGGrrr",
+      "rrrGGG"
+    ],
+    "t_19": [
+      "GGGGrrr",
+      "rrrrGGG"
+    ],
+    "t_20": [
+      "rrrrrGGrGGGG",
+      "rrrrrGGGrrrr",
+      "GGGGGrrrrrrr"
+    ],
+    "t_21": [
+      "GGGGrrr",
+      "rrrrGGG"
+    ],
+    "t_22": [
+      "rrrrGGGrGGGr",
+      "rrrrrrrGrrrG",
+      "GGGGGrrrrrrr",
+      "rrrrGGGGrrrr",
+      "rrrrrrrrGGGG"
+    ]
+  },
+  "outEdges": [
+    "p_0-t_0",
+    "p_1-t_1",
+    "p_2-t_2",
+    "p_3-t_3",
+    "p_4-t_4",
+    "p_5-t_4",
+    "p_6-t_9",
+    "p_7-t_14",
+    "p_8-t_17",
+    "p_9-t_22",
+    "p_10-t_22",
+    "p_11-t_20",
+    "p_12-t_10",
+    "p_13-t_10",
+    "p_14-t_5",
+    "p_15-t_0"
+  ]
+}

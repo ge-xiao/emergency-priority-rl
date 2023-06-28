@@ -1,0 +1,10 @@
+<configuration>
+  <input>
+    <edge-files value="exp.edg.xml"/>
+    <node-files value="exp.nod.xml"/>
+    <connection-files value="exp.con.xml"/>
+  </input>
+  <output>
+    <output-file value="exp.net.xml"/>
+  </output>
+</configuration>

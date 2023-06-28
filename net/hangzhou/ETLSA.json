@@ -1,0 +1,133 @@
+{
+    "node_phases": {
+      "t_0": [
+        "GGGrrrrrGGGrrrrr",
+        "rrrGrrrrrrrGrrrr",
+        "rrrrGGGrrrrrGGGr",
+        "rrrrrrrGrrrrrrrG"
+      ],
+      "t_1": [
+        "GGGrrrrrGGGrrrrr",
+        "rrrGrrrrrrrGrrrr",
+        "rrrrGGGrrrrrGGGr",
+        "rrrrrrrGrrrrrrrG"
+      ],
+      "t_2": [
+        "GGGrrrrrGGGrrrrr",
+        "rrrGrrrrrrrGrrrr",
+        "rrrrGGGrrrrrGGGr",
+        "rrrrrrrGrrrrrrrG"
+      ],
+      "t_3": [
+        "GGGrrrrrGGGrrrrr",
+        "rrrGrrrrrrrGrrrr",
+        "rrrrGGGrrrrrGGGr",
+        "rrrrrrrGrrrrrrrG"
+      ],
+      "t_4": [
+        "GGGrrrrrGGGrrrrr",
+        "rrrGrrrrrrrGrrrr",
+        "rrrrGGGrrrrrGGGr",
+        "rrrrrrrGrrrrrrrG"
+      ],
+      "t_5": [
+        "GGGrrrrrGGGrrrrr",
+        "rrrGrrrrrrrGrrrr",
+        "rrrrGGGrrrrrGGGr",
+        "rrrrrrrGrrrrrrrG"
+      ],
+      "t_6": [
+        "GGGrrrrrGGGrrrrr",
+        "rrrGrrrrrrrGrrrr",
+        "rrrrGGGrrrrrGGGr",
+        "rrrrrrrGrrrrrrrG"
+      ],
+      "t_7": [
+        "GGGrrrrrGGGrrrrr",
+        "rrrGrrrrrrrGrrrr",
+        "rrrrGGGrrrrrGGGr",
+        "rrrrrrrGrrrrrrrG"
+      ],
+      "t_8": [
+        "GGGrrrrrGGGrrrrr",
+        "rrrGrrrrrrrGrrrr",
+        "rrrrGGGrrrrrGGGr",
+        "rrrrrrrGrrrrrrrG"
+      ],
+      "t_9": [
+        "GGGrrrrrGGGrrrrr",
+        "rrrGrrrrrrrGrrrr",
+        "rrrrGGGrrrrrGGGr",
+        "rrrrrrrGrrrrrrrG"
+      ],
+      "t_10": [
+        "GGGrrrrrGGGrrrrr",
+        "rrrGrrrrrrrGrrrr",
+        "rrrrGGGrrrrrGGGr",
+        "rrrrrrrGrrrrrrrG"
+      ],
+      "t_11": [
+        "GGGrrrrrGGGrrrrr",
+        "rrrGrrrrrrrGrrrr",
+        "rrrrGGGrrrrrGGGr",
+        "rrrrrrrGrrrrrrrG"
+      ],
+      "t_12": [
+        "GGGrrrrrGGGrrrrr",
+        "rrrGrrrrrrrGrrrr",
+        "rrrrGGGrrrrrGGGr",
+        "rrrrrrrGrrrrrrrG"
+      ],
+      "t_13": [
+        "GGGrrrrrGGGrrrrr",
+        "rrrGrrrrrrrGrrrr",
+        "rrrrGGGrrrrrGGGr",
+        "rrrrrrrGrrrrrrrG"
+      ],
+      "t_14": [
+        "GGGrrrrrGGGrrrrr",
+        "rrrGrrrrrrrGrrrr",
+        "rrrrGGGrrrrrGGGr",
+        "rrrrrrrGrrrrrrrG"
+      ],
+      "t_16": [
+        "GGGrrrrrGGGrrrrr",
+        "rrrGrrrrrrrGrrrr",
+        "rrrrGGGrrrrrGGGr",
+        "rrrrrrrGrrrrrrrG"
+      ],
+      "t_17": [
+        "GGGrrrrrGGGrrrrr",
+        "rrrGrrrrrrrGrrrr",
+        "rrrrGGGrrrrrGGGr",
+        "rrrrrrrGrrrrrrrG"
+      ],
+      "t_15": [
+        "rrrGGGGGGrr",
+        "rrrrrrrGGGG",
+        "GGGGrrrrrrr"
+      ],
+      "t_18": [
+        "GGGrrr",
+        "rrrGGG"
+      ],
+      "t_19": [
+        "GGGGrrr",
+        "rrrrGGG"
+      ],
+      "t_20": [
+        "rrrrrGGrGGGG",
+        "rrrrrGGGrrrr",
+        "GGGGGrrrrrrr"
+      ],
+      "t_21": [
+        "GGGGrrr",
+        "rrrrGGG"
+      ],
+      "t_22": [
+        "rrrrGGGrGGGr",
+        "rrrrrrrGrrrG",
+        "GGGGGrrrrrrr"
+      ]
+    }
+}
