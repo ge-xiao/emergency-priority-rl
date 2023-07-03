@@ -12,7 +12,7 @@ ev_flow = 15
 # 300,250
 FLOW1 = 280
 FLOW2 = 250
-num_ev=4
+num_ev=2
 
 
 def output_road_types():
@@ -335,7 +335,7 @@ def output_flows(peak_flow1, peak_flow2, density, seed=None):
         elif num_ev==1:
             if t_begin == 0:
                 str_flows += '  <flow id="emergency1" departPos="base" departLane="best" from="%s" to="%s" begin="0" end="1" vehsPerHour="%s" type="emergency1"/>\n' % (edgeNameByIdx('w', 5, True), edgeNameByIdx('e', 1, False), ev_flow)
-            if t_begin == 400:
+            if t_begin == 600:
                 str_flows += '  <flow id="emergency2" departPos="base" departLane="best" from="%s" to="%s" begin="500" end="501" vehsPerHour="%s" type="emergency2"/>\n' % (edgeNameByIdx('s', 3, True), edgeNameByIdx('n', 3, False), ev_flow)
             if t_begin == 1000:
                 str_flows += '  <flow id="emergency3" departPos="base" departLane="best" from="%s" to="%s" begin="1000" end="1001" vehsPerHour="%s" type="emergency3"/>\n' % (edgeNameByIdx('e', 3, True), edgeNameByIdx('w', 1, False), ev_flow)
@@ -346,7 +346,7 @@ def output_flows(peak_flow1, peak_flow2, density, seed=None):
                 str_flows += '  <trip id="emergency1.0" departPos="base" departLane="best" depart="0"  from="%s" to="%s" type="emergency1"/>\n' % (edgeNameByIdx('w', 5, True), edgeNameByIdx('e', 1, False))
                 str_flows += '  <trip id="emergency2.0" departPos="base" departLane="best" depart="0"  from="%s" to="%s" type="emergency2"/>\n' % (edgeNameByIdx('s', 3, True), edgeNameByIdx('n', 3, False))
 
-            if t_begin == 400:
+            if t_begin == 600:
                 str_flows += '  <trip id="emergency1.1" departPos="base" departLane="best" depart="500"  from="%s" to="%s" type="emergency1"/>\n' % (edgeNameByIdx('w', 5, True), edgeNameByIdx('e', 1, False))
                 str_flows += '  <trip id="emergency3.0" departPos="base" departLane="best" depart="500"  from="%s" to="%s" type="emergency3"/>\n' % (edgeNameByIdx('e', 3, True), edgeNameByIdx('w', 1, False))
             if t_begin == 1000:

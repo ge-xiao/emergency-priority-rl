@@ -85,8 +85,6 @@
   </flow>
   <flow id="f_1_19" departPos="base" departLane="best" from="p_5_6-t_5_5" to="t_1_1-p_1_0" begin="200" end="400" vehsPerHour="168" type="type1">
   </flow>
-  <trip id="emergency1.1" departPos="base" departLane="best" depart="500"  from="p_0_5-t_1_5" to="t_5_1-p_6_1" type="emergency1"/>
-  <trip id="emergency3.0" departPos="base" departLane="best" depart="500"  from="p_6_3-t_5_3" to="t_1_1-p_0_1" type="emergency3"/>
   <flow id="f_2_0" departPos="base" departLane="best" from="p_0_1-t_1_1" to="t_5_5-p_6_5" begin="400" end="600" vehsPerHour="224" type="type1">
   </flow>
   <flow id="f_2_1" departPos="base" departLane="best" from="p_6_1-t_5_1" to="t_1_5-p_0_5" begin="400" end="600" vehsPerHour="224" type="type1">
@@ -127,6 +125,8 @@
   </flow>
   <flow id="f_2_19" departPos="base" departLane="best" from="p_5_6-t_5_5" to="t_1_1-p_1_0" begin="400" end="600" vehsPerHour="224" type="type1">
   </flow>
+  <trip id="emergency1.1" departPos="base" departLane="best" depart="500"  from="p_0_5-t_1_5" to="t_5_1-p_6_1" type="emergency1"/>
+  <trip id="emergency3.0" departPos="base" departLane="best" depart="500"  from="p_6_3-t_5_3" to="t_1_1-p_0_1" type="emergency3"/>
   <flow id="f_3_0" departPos="base" departLane="best" from="p_0_1-t_1_1" to="t_5_5-p_6_5" begin="600" end="800" vehsPerHour="280" type="type1">
   </flow>
   <flow id="f_3_1" departPos="base" departLane="best" from="p_6_1-t_5_1" to="t_1_5-p_0_5" begin="600" end="800" vehsPerHour="280" type="type1">
